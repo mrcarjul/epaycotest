@@ -1,0 +1,127 @@
+// Here you can add other styles
+@font-face {
+  font-family: "Segoe UI";
+  src: local("Segoe UI"), url(../assets/fonts/Segoe-UI.ttf) format("opentype");
+}
+
+@font-face {
+  font-family: "Roboto Medium";
+  src: local("Roboto Medium"),
+    url(../assets/fonts/Roboto-Medium.ttf) format("opentype");
+}
+
+@font-face {
+  font-family: "Roboto Regular";
+  src: local("Roboto Regular"),
+    url(../assets/fonts/Roboto-Regular.ttf) format("opentype");
+}
+
+body {
+  font-family: "Segoe UI";
+  background-color: #f3f3f4;
+}
+
+button {
+  font-family: "Roboto Regular";
+}
+
+.alignRight {
+  float: right;
+}
+
+.app-body {
+  margin-top: 0;
+}
+
+.app-header.navbar {
+  margin-bottom: 1.5rem;
+}
+
+.close {
+  position: absolute;
+  right: 20px;
+}
+
+.form-group label {
+  font-family: "Roboto Regular";
+  font-size: 16px;
+}
+
+.form-group label span {
+  color: #e1251b;
+}
+
+.main .container-fluid {
+  margin-top: 55px;
+}
+
+.marginContent {
+  margin-bottom: 2em;
+  margin-top: 2em;
+}
+
+.menu-name-container {
+  background-color: #222222;
+  padding: 10px;
+  border-radius: 4;
+}
+
+.modal-body {
+  font-family: "Roboto Regular";
+  font-size: 24px;
+}
+
+.modal-footer,
+.modal-header {
+  border-bottom: 0;
+  border-top: 0;
+}
+
+.modal-body,
+.modal-footer,
+.modal-title {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.modal-footer button {
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
+.nav-title:nth-child(2) {
+  padding-right: 0;
+}
+
+.sidebar,
+.sidebar .nav-link.active {
+  background-color: #3a3a3a;
+}
+
+.sidebar .nav-item,
+.sidebar .nav-title {
+  font-weight: bold;
+}
+
+.sidebar .nav-title {
+  font-size: 17px;
+}
+
+.subtitle {
+  color: #999999;
+  font-family: "Roboto Regular";
+  font-size: 13px;
+}
+
+.title {
+  font-family: "Roboto Medium";
+  font-size: 16px;
+}
+
+@media (min-width: 992px) {
+  .sidebar-minimized img.nav-icon {
+    padding: 0 0.7em;
+    width: auto;
+  }
+}
