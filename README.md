@@ -6,7 +6,7 @@ ePaycoTest
 
 ``` bash
 # clonar el repositorio
-$ git clone https://github.com/coreui/coreui-free-react-admin-template.git ePaycoTest
+$ git clone https://github.com/mrcarjul/epaycotest.git ePaycoTest
 
 # ir al directorio de la app
 $ cd ePaycoTest
