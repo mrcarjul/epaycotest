@@ -43,7 +43,6 @@ function Dashboard() {
           id: c.alpha3Code,
           name: c.name,
         }));
-        debugger;
         setCountries(countriesPayload);
       }
       setFetching(false);
